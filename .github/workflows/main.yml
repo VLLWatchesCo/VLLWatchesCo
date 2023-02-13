@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Luxury Watch Boutique</title>
+  </head>
+  <body>
+    <header>
+      <h1>Luxury Watch Boutique</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#featured">Featured Watches</a></li>
+        <li><a href="#collections">Watch Collections</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="featured">
+        <h2>Featured Watches</h2>
+        <p>Check out our latest and most popular watches:</p>
+        <ul>
+          <li>Rolex Submariner</li>
+          <li>Omega Speedmaster</li>
+          <li>Breitling Navitimer</li>
+        </ul>
+      </section>
+      <section id="collections">
+        <h2>Watch Collections</h2>
+        <p>Explore our wide range of watch collections:</p>
+        <ul>
+          <li><a href="#sport">Sport Watches</a></li>
+          <li><a href="#luxury">Luxury Watches</a></li>
+          <li><a href="#vintage">Vintage Watches</a></li>
+        </ul>
+      </section>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our passion for luxury watches:</p>
+        <p>We are two young entrepreneurs who have a passion for luxury watches. Our goal is to bring you the finest timepieces inspired by top brands and elevate your wrist game with a touch of sophistication.</p>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit-form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Luxury Watch Boutique 2020</p>
+    </footer>
+  </body>
+</html>
